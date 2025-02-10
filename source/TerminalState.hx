@@ -204,10 +204,6 @@ class TerminalState extends MusicBeatState
                             PlayState.SONG.validScore = false;
                             PlayState.formoverride = 'shaggy';
                             LoadingState.loadAndSwitchState(new PlayState());
-                        case "test.bit":
-                            UpdatePreviousText(false); //resets the text
-                            UpdateText(LanguageManager.getTerminalString("term_loading"));
-                            LoadingState.loadAndSwitchState(new test.flxInvaders.PlayState());
                         case "flandre.dat":
                             UpdatePreviousText(false); //resets the text
                             UpdateText(LanguageManager.getTerminalString("term_loading"));
