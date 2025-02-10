@@ -21,5 +21,6 @@ haxelib install actuate
 haxelib install hxCodec 2.5.1
 haxelib install hscript
 haxelib git lime https://github.com/mcagabe19-stuff/lime
+haxelib git discord_rpc https://github.com/YoshiCrafter29/linc_discord-rpc
 haxelib git extension-androidtools https://github.com/MAJigsaw77/extension-androidtools --quiet --skip-dependencies
 echo Finished!
